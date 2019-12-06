@@ -22,7 +22,7 @@ var countdown = setInterval(function() {
 // SLIDER ////////////////////////////////////////
 
 const srcImgArr = [
-  'https://previews.dropbox.com/p/thumb/AAkNAHx8cLDThr0mhw093cf-2PL2pcC-kpvmfaVLrvjtt_0Lr2rCRwcs6m5C8GrggUc7TETv5-T_PoeAnXgCbtNM8qT7bhsUWPn58ju3JZfLDXXxDtTxn13Uoz0FAy10KKRLn2-Koh5W8R2_gzhbFZVvA1XsY1VkBHy5AUKwR5AUaoq2gpE_YzfjuJv6iMajNA0XRuDJ_WUKMmgVBOTSfED8i9yttv9QgT6NrhE0lRZTDbG7EPD1tAtzDbS30S-ht6wgakBPkMMa8UGutlYkAWhbp5f-l0Hl6DRyipNlcV_0YTp8Y0FHPDRuz2pYfsMK8rnPBeqc-dmO8cze572SUgiozzUQFVxLebWGybiG8kcyzg/p.png?fv_content=true&size_mode=5',
+  'images/first/turnik.png',
   'https://sportshop21.ru/wp-content/uploads/2016/05/turnik-brusya-press-3-v-1.jpg',
   'https://borabo.ru/images/razmer/3_v_1_razmer.jpg',
   'https://zlatgrif.ru/wa-data/public/shop/products/32/01/132/images/558/558.750.jpg',
