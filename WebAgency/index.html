@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class='main-bg'>
-        <main class='container'>
+        <main class='container' id="main">
           <h1>наши сайты заставляют работать ваш бизнес.</h1>
           <p>Большинство веб студий считают окончанием работы загрузку сайта в интернет. Но почти никто не умеет делать проекты, которые работают и приносят прибыль.</p>
           <div class='main-boxes'>
@@ -50,17 +50,17 @@
       
       <div class='menu-wrap'>
         <menu class='container'>
-          <a href='#'>Главная</a>
-          <a href='#'>О нас</a>
-          <a href='#'>Услуги</a>
-          <a href='#'>Наши работы</a>
-          <a href='#'>Контакты</a>
+          <a href='#main'>Главная</a>
+          <a href='#about'>О нас</a>
+          <a href='#services'>Услуги</a>
+          <a href='#projects'>Наши работы</a>
+          <a href='#contacts'>Контакты</a>
         </menu>
       </div>
       
       
       <div>
-        <section class='container studio'>
+        <section class='container studio' id="about">
           <div class='studio-top-text'>
             <h2>Студия</h2>
             <p>Основная специализация — проектирование сайов и landing page. 
@@ -140,7 +140,7 @@
           <strong>Разработка</strong>
         </div>
         
-        <section class='develop'>
+        <section class='develop' id="services">
           <div class='develop-photo-blocks'>
             <div class='develop-photo-block'>
               <img src='images/third/photo1.png' alt='bg photo'>
@@ -192,7 +192,7 @@
       
       
       <div class='projects-bg'>
-        <section class='projects'>
+        <section class='projects' id="projects">
           <h2>последние проекты<span class='h2back'>our&nbsp;projects</span></h2>
           <div class='projects-photos'>
             <div class='project-photo'><img src='images/fifth/photo-1.png' alt='photo'></div>
@@ -311,7 +311,7 @@
       
       
       <div class='contact-bg'>
-        <footer class='container contact'>
+        <footer class='container contact' id="contacts">
           <div class='contact-text'>
             <h2>свяжитесь с нами</h2>
             <p>Готовы начать работу? Отправьте
@@ -338,5 +338,8 @@
       
       
       <div class='last-bg'></div>
+
+
+      <script src="script.js"></script>
 </body>
 </html>
